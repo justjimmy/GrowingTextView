@@ -76,6 +76,7 @@
     internalTextView.contentInset = UIEdgeInsetsZero;		
     internalTextView.showsHorizontalScrollIndicator = NO;
     internalTextView.text = @"-";
+    internalTextView.inputAccessoryView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 0)];
     [self addSubview:internalTextView];
     
     minHeight = internalTextView.frame.size.height;
